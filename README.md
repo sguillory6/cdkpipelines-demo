@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project!
+# CDK Pipelines: Continuous delivery for AWS CDK applications
 
-This is a blank project for TypeScript development with CDK.
+This project implements the example from the blog post [CDK Pipelines: Continuous delivery for AWS CDK applications](https://aws.amazon.com/blogs/developer/cdk-pipelines-continuous-delivery-for-aws-cdk-applications/)
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
