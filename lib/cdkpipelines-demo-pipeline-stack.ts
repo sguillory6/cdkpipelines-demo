@@ -22,9 +22,10 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
             sourceAction: new codepipeline_actions.GitHubSourceAction({
                 actionName: 'GitHub',
                 output: sourceArtifact,
-                oauthToken: SecretValue.secretsManager('github-token'),
+                oauthToken: SecretValue.secretsManager('cdkpipelines-demo-github-token'),
                 owner: 'sguillory6',
                 repo: 'https://github.com/sguillory6/cdkpipelines-demo.git',
+                branch:'main'
             }),
 
             // How it will be built and synthesized
