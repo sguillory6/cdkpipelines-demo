@@ -31,6 +31,7 @@
     "@aws-cdk/assets": "1.103.0",
     "@aws-cdk/aws-servicediscovery": "1.103.0",
     "@aws-cdk/aws-ssm": "1.103.0",
+    "@aws-cdk/aws-autoscaling-hooktargets": "1.103.0",
     "@aws-cdk/core": "1.103.0",
     "@aws-cdk/pipelines": "^1.103.0",
     "@types/aws-lambda": "8.10.76",
